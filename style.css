@@ -187,3 +187,30 @@ body {
     color: #fff;
     padding: 0.6rem 0.7rem;
 }
+
+
+/* footer */
+.footer-container{
+ width: 90%;
+ background: rgb(9, 6, 54);
+ 
+
+margin: 0 auto;
+border: 2px solid blue;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+}
+.footer-title{
+    color: #fff;
+}
+
+.social{
+    display: flex;
+    color: #fff;
+gap: 1rem;
+align-items: center;
+justify-content:center;
+
+}
