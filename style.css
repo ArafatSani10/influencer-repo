@@ -104,16 +104,17 @@ body {
 }
 
 .popular-container {
-    
+
     width: 1170px;
     margin: 3rem auto;
-    border: 2px solid red;
- 
-   
+    /* border: 2px solid red; */
+
+
 
 
 }
-.cards{
+
+.cards {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -130,7 +131,7 @@ body {
     padding: 14px 17px 15px;
     /* width: 329px; */
     height: 476px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 
 }
@@ -148,3 +149,41 @@ body {
     color: #5E6366;
 }
 
+
+/* featured collection related style here */
+
+.featured-container {
+    width: 1300px;
+    margin: 3rem auto;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9rem;
+
+}
+
+.featured-title h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #0A0826;
+
+    
+}
+
+.featured-title p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
+    margin-bottom: 1rem;
+
+}
+
+.btn-primary{
+    border-radius: 40px;
+    background: rgb(224, 44, 109);
+    color: #fff;
+    padding: 0.6rem 0.7rem;
+}
