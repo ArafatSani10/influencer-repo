@@ -56,15 +56,37 @@ body {
     color: #fff;
     padding: 0.6rem 0.7rem;
 }
-.image{
+
+.image {
     background: url('https://media.istockphoto.com/id/1401941077/vector/abstract-white-circle-layers-background.jpg?s=612x612&w=0&k=20&c=TjnaZlcR-Lg4_yP2xIHtkLo9sT9HRrIl3HMpLi6KI1A=');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-bottom: 1rem;
 }
+
 .image img {
     width: 440px;
     height: 424px;
+    border-radius: 20px;
 
+}
+
+/* logos related style here */
+
+.logos-container {
+    width: 70%;
+    height: 20vh;
+    margin: 3rem auto;
+    border: 2px solid rebeccapurple;
+     display: flex;
+    justify-content: space-around; 
+
+}
+
+.logos img {
+    width: 3rem;
+    height: 3.2rem;
+    padding: 3rem 3rem 3rem 3rem;
+    font-size: 4rem;
 }
